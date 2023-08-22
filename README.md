@@ -1,13 +1,3 @@
-# Sample Hardhat Project
+# 11 Elevator
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+The goal is to set the top variable of the Elevator contract to true. The only code path to set this variable is by having the isLastFloor function return false for the if condition and true the second time for the variable assignment.

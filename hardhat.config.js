@@ -5,6 +5,6 @@ module.exports = {
   solidity: "0.8.0",
   networks: {
     accounts: [process.env.PRIVATE_KEY],
-    url: process.env.MUMBAI_URL,
+    url: process.env.SEPOLIA_URL,
   },
 };
